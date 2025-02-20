@@ -7,8 +7,8 @@ const App = () => {
     SplashScreen.hide(); // Hide splash screen after initialization
   }, []);
   return (
-    <View>
-      <Text>App</Text>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text style={{fontSize: 36, fontWeight: 'bold'}}>Splash Screen</Text>
     </View>
   );
 };
